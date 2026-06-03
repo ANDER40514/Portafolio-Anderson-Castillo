@@ -20,7 +20,7 @@ UTILITIES
 
 .section__container {
     max-width: var(--container-width);
-    margin: 10 auto;
+    margin: 10px auto;
 }
 
 .section__title {
@@ -468,35 +468,23 @@ HEADER
 .certifications-grid {
 
     display: grid;
-
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-
     gap: 1.5rem;
 }
 
 .certification-card {
 
-    background:
-        var(--color-card);
-
-    border:
-        1px solid var(--color-border);
-
-    border-radius:
-        var(--border-radius-md);
-
+    background: var(--color-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-md);
     padding: 2rem;
-
     transition: var(--transition-default);
 }
 
 .certification-card:hover {
 
-    transform:
-        translateY(-6px);
-
+    transform:translateY(-6px);
     border-color: var(--color-primary);
-
     box-shadow: var(--shadow-primary);
 }
 
@@ -552,75 +540,51 @@ HEADER
 /* ==========================================
    CONTACT
 ========================================== */
-
-/* ==========================================
-   CONTACT
-========================================== */
-
 .contact {
 
     display: grid;
-
-    grid-template-columns:
-        repeat(auto-fit, minmax(320px, 1fr));
-
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 1.5rem;
 }
 
 .contact-card {
 
     display: flex;
-
     align-items: center;
-
     gap: 1.5rem;
-
     padding: 1.5rem;
-
     background: var(--color-card);
-
     border: 1px solid var(--color-border);
-
     border-radius: var(--border-radius-md);
-
     transition: var(--transition-default);
-
     text-decoration: none;
 }
 
 .contact-card:hover {
 
     transform: translateY(-6px);
-
     border-color: var(--color-primary);
-
     box-shadow: var(--shadow-primary);
 }
 
 .contact-card__icon {
 
     width: 48px;
-
     height: 48px;
-
     object-fit: contain;
-
     flex-shrink: 0;
 }
 
 .contact-card__content h3 {
 
     color: var(--color-text);
-
     margin-bottom: .4rem;
-
     font-size: 1.1rem;
 }
 
 .contact-card__content p {
 
     color: var(--color-muted);
-
     font-size: .95rem;
 }
 
@@ -656,32 +620,26 @@ HEADER
 @media (max-width: 768px) {
 
     .header__navigation {
-
         display: none;
     }
 
     .hero__actions {
-
         flex-direction: column;
     }
 
     .button {
-
         text-align: center;
     }
 
     .experience-card__header {
-
         flex-direction: column;
     }
 
     .hero__grid {
-
         grid-template-columns: 1fr;
     }
 
     .hero__visual {
-
         margin-top: 3rem;
     }
 }
