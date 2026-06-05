@@ -1,6 +1,6 @@
 # QA Automation Portfolio
 
-Professional portfolio of Anderson Castillo.
+Portfolio of Anderson Castillo.
 
 ## Technologies
 

@@ -1,5 +1,5 @@
 /* ==========================================
-   BASE
+BASE
 ========================================== */
 
 body {
@@ -103,7 +103,7 @@ HEADER
 }
 
 /* ==========================================
-   HERO
+HERO
 ========================================== */
 
 .hero {
@@ -167,7 +167,7 @@ HEADER
 }
 
 /* ==========================================
-   BUTTONS
+BUTTONS
 ========================================== */
 
 .button {
@@ -204,7 +204,7 @@ HEADER
 }
 
 /* ==========================================
-   TECH BADGES
+TECH BADGES
 ========================================== */
 
 .tech-badge {
@@ -237,7 +237,7 @@ HEADER
 }
 
 /* ==========================================
-   METRICS
+METRICS
 ========================================== */
 
 .metrics {
@@ -325,7 +325,7 @@ HEADER
 }
 
 /* ==========================================
-   SKILLS
+SKILLS
 ========================================== */
 
 .skills-categories {
@@ -429,7 +429,7 @@ HEADER
 
 
 /* ==========================================
-   FRAMEWORK
+FRAMEWORK
 ========================================== */
 
 .framework-card {
@@ -462,7 +462,7 @@ HEADER
 }
 
 /* ==========================================
-   CERTIFICATIONS
+CERTIFICATIONS
 ========================================== */
 
 .certifications-grid {
@@ -479,6 +479,7 @@ HEADER
     border-radius: var(--border-radius-md);
     padding: 2rem;
     transition: var(--transition-default);
+    margin-bottom: 1rem;
 }
 
 .certification-card:hover {
@@ -516,7 +517,7 @@ HEADER
 }
 
 /* ==========================================
-   EDUCATION
+EDUCATION
 ========================================== */
 
 .education-card {
@@ -525,7 +526,15 @@ HEADER
     border: 1px solid var(--color-border);
     border-radius: var(--border-radius-md);
     padding: 2rem;
+    transition: var(--transition-default);
 }
+
+.education-card:hover {
+
+    border-color: var(--color-primary);
+    box-shadow: var(--shadow-primary);
+}
+
 
 .education-card h3 {
 
@@ -538,7 +547,7 @@ HEADER
 }
 
 /* ==========================================
-   CONTACT
+CONTACT
 ========================================== */
 .contact {
 
@@ -590,7 +599,7 @@ HEADER
 
 
 /* ==========================================
-   FOOTER
+FOOTER
 ========================================== */
 
 .footer {
@@ -614,7 +623,7 @@ HEADER
 }
 
 /* ==========================================
-   RESPONSIVE
+RESPONSIVE
 ========================================== */
 
 @media (max-width: 768px) {
